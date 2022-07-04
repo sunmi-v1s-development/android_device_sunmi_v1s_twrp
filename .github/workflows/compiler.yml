@@ -22,7 +22,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/Sunmi-v1s-development/android_device_sunmi_v1s_twrp'
+        default: 'https://github.com/Sunmi-v1s-development/android_device_sunmi_v1s_twrp.git'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true

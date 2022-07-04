@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/sunmi/V1s-G
+DEVICE_PATH := device/sunmi/v1s
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := V1s-G
+TARGET_OTA_ASSERT_DEVICE := v1s
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := B0182_J3BOM_V1.
@@ -46,8 +46,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/sunmi/V1s-G
-TARGET_KERNEL_CONFIG := V1s-G_defconfig
+TARGET_KERNEL_SOURCE := kernel/sunmi/v1s
+TARGET_KERNEL_CONFIG := v1s_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6580

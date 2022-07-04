@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/sunmi/V1s-G
+LOCAL_PATH := device/sunmi/v1s
